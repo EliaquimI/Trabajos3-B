@@ -40,23 +40,24 @@ public class Persona {
         return IMC;
     }
     String clasificarIMC(){
-    if (IMC > 18.5 && IMC < 24.9) {
-            clasificacion = "Tu peso es bajo";
-        }if (IMC > 25.0 && IMC < 29.9) {
+        if (IMC <= 18.5) {
+            System.out.println("Peso bajo");   
+        }
+    if (IMC >= 18.5 || IMC <= 24.9) {
             clasificacion = "Tu peso es normal";
+        }if (IMC >= 25.0 || IMC <= 29.9) {
+            clasificacion = "Tienes sobrepeso";
         }
         if (IMC > 30) {
             clasificacion = "Tienes obesidad";
         }
     return clasificacion;
     }
+    
 void mostrarDatos(){
     System.out.println("Nombre: "+getNombre());
     System.out.println("Peso: "+getPeso());
     System.out.println("Altura: "+ getAltura());
     System.out.println("Tu clasificacion es: "+ clasificarIMC());
 }
-
-
-
 }
