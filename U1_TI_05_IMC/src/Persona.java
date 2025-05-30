@@ -1,11 +1,14 @@
+import java.util.Scanner;
+
 public class Persona {
-    private String nombre;
+    private String nombre,clasificacion;
     private double altura,peso,IMC;
     public Persona(String nombre, double altura, double peso) {
         this.nombre = nombre;
         this.altura = altura;
         this.peso = peso;
     }
+    Scanner scanner = new Scanner(System.in);
     public String getNombre() {
         return nombre;
     }
@@ -26,16 +29,17 @@ public class Persona {
     }
 
     double calcularMC(){
-        IMC = peso + (altura+altura);
+    System.out.println("Dame tu peso: ");
+    setPeso(scanner.nextDouble());
+    System.out.println("Dame tu altura: ");
+    setAltura(scanner.nextDouble());
+    scanner.nextLine();
+    System.out.println("Dame tu nombre: ");
+    setNombre(scanner.nextLine());
+        IMC = peso / (altura*altura);
         return IMC;
     }
-    String clasificarIMC(){
-        if (IMC < 18.5) {
-            System.out.println("Tu peso es bajo");
-        }if () {
-            
-        }
 
-    }
-    
+
+
 }
