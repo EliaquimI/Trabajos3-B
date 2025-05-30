@@ -50,7 +50,12 @@ public class Persona {
         }
     return clasificacion;
     }
-
+void mostrarDatos(){
+    System.out.println("Nombre: "+getNombre());
+    System.out.println("Peso: "+getPeso());
+    System.out.println("Altura: "+ getAltura());
+    System.out.println("Tu clasificacion es: "+ clasificarIMC());
+}
 
 
 
