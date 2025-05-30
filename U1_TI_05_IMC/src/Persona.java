@@ -39,6 +39,18 @@ public class Persona {
         IMC = peso / (altura*altura);
         return IMC;
     }
+    String clasificarIMC(){
+    if (IMC > 18.5 && IMC < 24.9) {
+            clasificacion = "Tu peso es bajo";
+        }if (IMC > 25.0 && IMC < 29.9) {
+            clasificacion = "Tu peso es normal";
+        }
+        if (IMC > 30) {
+            clasificacion = "Tienes obesidad";
+        }
+    return clasificacion;
+    }
+
 
 
 
