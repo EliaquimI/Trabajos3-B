@@ -22,10 +22,10 @@ public class UsuarioSeguro {
                 return  contador > 8;
             }
     }
-    
+
     public void pedirPassword () {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Ingrese su contraseña: ");
+        System.out.print("por favor Ingrese su contraseña: ");
         setPassword(scanner.nextLine());
     }
 }
