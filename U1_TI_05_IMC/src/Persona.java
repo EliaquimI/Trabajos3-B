@@ -43,7 +43,7 @@ public class Persona {
         if (IMC <= 18.5) {
             System.out.println("Peso bajo");   
         }
-    if (IMC >= 18.5 || IMC <= 24.9) {
+        if (IMC >= 18.5 || IMC <= 24.9) {
             clasificacion = "Tu peso es normal";
         }if (IMC >= 25.0 || IMC <= 29.9) {
             clasificacion = "Tienes sobrepeso";
