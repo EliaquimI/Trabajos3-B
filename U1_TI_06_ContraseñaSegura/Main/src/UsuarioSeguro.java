@@ -6,7 +6,7 @@ public class UsuarioSeguro {
         if (nombreUsuario != null && !nombreUsuario.trim().isEmpty()) {
             this.nombreUsuario = nombreUsuario;
         } else {
-            System.out.println("Error: El nombre de usuario no puede ser nulo ni vacío.");
+            System.out.println("Algo alio mal, agrega algo.");
         }
     }
 
@@ -16,7 +16,7 @@ public class UsuarioSeguro {
         boolean obligarNumero = false;
 
         if (password == null || password.length() < 8) {
-            System.out.println("Error: La contraseña debe tener al menos 8 caracteres.");
+            System.out.println("Tu contraseña debe ser de 8 caracteres.");
             return;
         }
 
@@ -32,13 +32,13 @@ public class UsuarioSeguro {
         }
 
         if (!obligarMayusculas) {
-            System.out.println("Error: La contraseña debe contener al menos una letra mayúscula.");
+            System.out.println("La contraseña debe tener la letra mayuscula");
         }
         if (!obligarMinusculas) {
-            System.out.println("Error: La contraseña debe contener al menos una letra minúscula.");
+            System.out.println("La contraseña debe tener letra minuscula");
         }
         if (!obligarNumero) {
-            System.out.println("Error: La contraseña debe contener al menos un dígito.");
+            System.out.println("La contraseña debe tener 1 numero");
         }
 
         if (obligarMayusculas && obligarMinusculas && obligarNumero) {
