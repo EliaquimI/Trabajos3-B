@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>mx.edu.utez</groupId>
-    <artifactId>fomulario</artifactId>
+    <artifactId>U2_TI_05</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>fomulario</name>
+    <name>U2_TI_05</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -69,7 +69,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>mx.edu.utez.fomulario/mx.edu.utez.fomulario.HelloApplication</mainClass>
+                            <mainClass>mx.edu.utez.u2_ti_05/mx.edu.utez.u2_ti_05.HelloApplication</mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>

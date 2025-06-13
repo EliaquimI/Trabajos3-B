@@ -1,4 +1,4 @@
-package mx.edu.utez.demo3b.src;
+package mx.edu.utez.u2_ti_05;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
