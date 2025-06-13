@@ -24,7 +24,7 @@ public class HelloApplication extends Application {
         Button button2 = new Button("Button Cancelado");
 
         button.setOnAction(e -> {
-            label.setText("Aceptado");
+            label.setText("Aceptad");
         });
 
         button2.setOnAction(e -> {
