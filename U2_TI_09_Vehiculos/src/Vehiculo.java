@@ -1,4 +1,3 @@
-// Clase abstracta Vehiculo
 public abstract class Vehiculo {
     private String placa;
     private String marca;

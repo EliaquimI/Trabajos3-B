@@ -1,4 +1,3 @@
-// Clase Coche que extiende Vehiculo
 public class Coche extends Vehiculo {
     private int numPuertas;
     public Coche(String placa, String marca, int numPuertas) {
